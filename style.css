@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color: #72B0AB;
+}
+
+header .navbar {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar .nav-menu .nav-link {
+    padding: 10px 18px;
+    color: white;
+}
+
+/* Konten utama */
+.Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 30px;
+}
+
+/* Bagian teks */
+.banner {
+    width: 50%;
+}
+
+.banner .title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.banner .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner .desc {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Bagian gambar */
+.banner-img {
+    width: 50%;
+    text-align: center;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+}
